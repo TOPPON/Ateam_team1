@@ -8,7 +8,28 @@ namespace Ateam
     public class Alfa : BaseBattleAISystem
     {
         public CharacterModel.Data[] datas = new CharacterModel.Data[6];
-
+        List <HpData>OldHPList = new List<HpData>();
+        struct HpData
+        {
+            public float Hp;
+            public int id;
+            public HpData(int Hp,int id)
+            {
+                this.Hp = Hp;
+                this.id = id;
+            }
+        }
+        struct ITEMInfo
+        {
+            public ITEM_TYPE itemtype;
+            Vector2 Pos;
+        }
+        enum ITEM_TYPE
+        {
+            ATKUP,
+            SPEEDUP,
+            RECOVER
+        }
         //---------------------------------------------------
         // InitializeAI
         //---------------------------------------------------
@@ -29,6 +50,34 @@ namespace Ateam
         //---------------------------------------------------
         override public void UpdateAI()
         {
+            List<CharacterModel.Data> player = GetTeamCharacterDataList(TEAM_TYPE.PLAYER);
+            for (int i=0;i<OldHPList.Count;i++)
+            { 
+                HpData thisHP = OldHPList[i];
+                //ダメージ検出
+                foreach (CharacterModel.Data character in player)
+                {
+                    if (character.ActorId == thisHP.id)
+                    {
+                        if (character.Hp != thisHP.Hp)//ダメージを食らっている
+                        {
+                            if (character.Hp <= 0)
+                            {
+                                DieCallBack(character.ActorId);
+                            }
+                            DamageCallBack(character.ActorId);
+                        }
+                        thisHP.Hp = character.Hp;
+                        OldHPList[i]=thisHP;
+                        break;
+                    }
+                }
+            }
+            //プレイヤーの情報の更新
+            for (int i = 0; i < 6; i++)
+            {
+                datas[i] = GetCharacterData(i);
+            }
         }
 
         //---------------------------------------------------
@@ -36,28 +85,82 @@ namespace Ateam
         //---------------------------------------------------
         override public void ItemSpawnCallback(ItemSpawnData itemData)
         {
+
         }
 
+        void DamageCallBack(int actorid)
+        {
+
+        }
+        void DieCallBack(int actorid)
+        {
+        }
+
+        List<ITEMInfo> GetItemNearDistance(Vector2 Playerpos ,ITEM_TYPE targetItem)
+        {
+            List<ITEMInfo> ITEMS = new List<ITEMInfo>(); 
+            return ITEMS;
+        }
         /// <summary>
         /// 味方を取得
         /// </summary>
         /// <returns></returns>
         public IEnumerator<CharacterModel.Data> GetPlayers()
         {
-            yield return datas[0];
-            yield return datas[1];
-            yield return datas[2];
+            if (GetCharacterData(0).TeamType.Equals(TEAM_TYPE.PLAYER))
+            {
+                yield return datas[0];
+                yield return datas[1];
+                yield return datas[2];
+            }
+            else
+            {
+                yield return datas[3];
+                yield return datas[4];
+                yield return datas[5];
+            }
         }
-
         /// <summary>
         /// 敵を取得
         /// </summary>
         /// <returns></returns>
         public IEnumerator<CharacterModel.Data> GetEnemies()
         {
-            yield return datas[3];
-            yield return datas[4];
-            yield return datas[5];
+            if (GetCharacterData(0).TeamType.Equals(TEAM_TYPE.PLAYER))
+            {
+                yield return datas[3];
+                yield return datas[4];
+                yield return datas[5];
+            }
+            else
+            {
+                yield return datas[0];
+                yield return datas[1];
+                yield return datas[2];
+            }
+        }
+        //メイン機を取得
+        public CharacterModel.Data GetMainMachine(TEAM_TYPE teamType)
+        {
+            if (teamType.Equals((GetCharacterData(0).TeamType)))
+            {
+                return datas[0];
+            }
+            else return datas[3];
+        }
+        //サブ機を取得
+        public IEnumerator<CharacterModel.Data> GetSubMachines(TEAM_TYPE teamType)
+        {
+            if (teamType.Equals((GetCharacterData(0).TeamType)))
+            {
+                yield return datas[1];
+                yield return datas[2];
+            }
+            else
+            {
+                yield return datas[4];
+                yield return datas[5];
+            }
         }
 
         public LinkedList<PathNode> GetPath(Vector2Int start, Vector2Int goal)
