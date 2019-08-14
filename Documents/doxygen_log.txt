@@ -1,0 +1,917 @@
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching INPUT for files to process...
+Searching for files in directory E:/develop/game-intern/Assets/Ateam/Scripts
+Searching for files in directory E:/develop/game-intern/Assets/Ateam/Scripts/Actor
+Searching for files in directory E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet
+Searching for files in directory E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character
+Searching for files in directory E:/develop/game-intern/Assets/Ateam/Scripts/Battle
+Searching for files in directory E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action
+Searching for files in directory E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Ai
+Searching for files in directory E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item
+Searching for files in directory E:/develop/game-intern/Assets/Ateam/Scripts/Boot
+Searching for files in directory E:/develop/game-intern/Assets/Ateam/Scripts/Ranking
+Searching for files in directory E:/develop/game-intern/Assets/Ateam/Scripts/System
+Searching for files in directory E:/develop/game-intern/Assets/Ateam/Scripts/System/Common
+Searching for files in directory E:/develop/game-intern/Assets/Ateam/Scripts/System/Define
+Searching for files in directory E:/develop/game-intern/Assets/Ateam/Scripts/Title
+Reading and parsing tag files
+Parsing files
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorManager.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorManager.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorModel.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorModel.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorView.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorView.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/Bullet.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/Bullet.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletView.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletView.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/Character.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/Character.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterView.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterView.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/ActionManager.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/ActionManager.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseActionModel.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseActionModel.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BulletAttackAction.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BulletAttackAction.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/InvincibleAction.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/InvincibleAction.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Ai/BaseBattleAISystem.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Ai/BaseBattleAISystem.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleScene.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleScene.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleStateMachine.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleStateMachine.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleUiMain.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleUiMain.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/DamageObject.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/DamageObject.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/Item.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/Item.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemAttackBuffAction.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemAttackBuffAction.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemHpRecoveryAction.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemHpRecoveryAction.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemModel.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemModel.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemSpeedBuffAction.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemSpeedBuffAction.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemView.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemView.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ResultUi.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ResultUi.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Battle/StageManager.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Battle/StageManager.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Boot/BootScene.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Boot/BootScene.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingElement.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingElement.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingScene.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingScene.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingUiMain.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingUiMain.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/ApplicationManager.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/ApplicationManager.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/CameraManager.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/CameraManager.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseMonoBehaviour.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseMonoBehaviour.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseUi.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseUi.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/Common.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/Common.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/IObserver.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/IObserver.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/Observable.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/Observable.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Actor.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Actor.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Battle.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Battle.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Config.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Config.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Scenes.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Scenes.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Stage.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Stage.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/EffectManager.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/EffectManager.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/GameSceneManager.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/GameSceneManager.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/System/ParticleBase.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/System/ParticleBase.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Title/TitleScene.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Title/TitleScene.cs...
+Preprocessing E:/develop/game-intern/Assets/Ateam/Scripts/Title/TitleUiMain.cs...
+Parsing file E:/develop/game-intern/Assets/Ateam/Scripts/Title/TitleUiMain.cs...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Associating documentation with classes...
+Computing nesting relations for classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Computing class relations...
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorManager.cs:20: warning: Compound Ateam::ActorManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleStateMachine.cs:18: warning: Compound Ateam::BattleStateMachine is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemSpeedBuffAction.cs:7: warning: Compound Ateam::ItemSpeedBuffAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletView.cs:8: warning: Compound Ateam::BulletView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:21: warning: Compound Ateam::ItemManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorModel.cs:7: warning: Compound Ateam::ActorModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemHpRecoveryAction.cs:7: warning: Compound Ateam::ItemHpRecoveryAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:7: warning: Compound Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ResultUi.cs:9: warning: Compound Ateam::ResultUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Stage.cs:9: warning: Compound Ateam::Define::Stage is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:9: warning: Compound Ateam::ItemSpawnData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:9: warning: Compound Ateam::StateData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/GameSceneManager.cs:8: warning: Compound Ateam::GameSceneManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleUiMain.cs:10: warning: Compound Ateam::BattleUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/Character.cs:9: warning: Compound Ateam::Character is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/IObserver.cs:7: warning: Compound Ateam::IObserver is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/Bullet.cs:7: warning: Compound Ateam::Bullet is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterView.cs:9: warning: Compound Ateam::CharacterView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:7: warning: Compound Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Boot/BootScene.cs:7: warning: Compound Ateam::BootScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Battle.cs:9: warning: Compound Ateam::Define::Battle is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:7: warning: Compound Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseUi.cs:7: warning: Compound Ateam::BaseUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:8: warning: Compound Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:9: warning: Compound Ateam::CharacterModel::CharacterData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemAttackBuffAction.cs:7: warning: Compound Ateam::ItemAttackBuffAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/ParticleBase.cs:7: warning: Compound Ateam::ParticleBase is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Title/TitleUiMain.cs:7: warning: Compound Ateam::TitleUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorManager.cs:8: warning: Compound Ateam::ActorData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemModel.cs:7: warning: Compound Ateam::ItemModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:10: warning: Compound Ateam::BattleSystem is not documented.
+E:/develop/game-Add enum values to enums...
+Searching for member function documentation...
+Creating members for template instances...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Freeing entry tree
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Computing dependencies between directories...
+Generating citations page...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating file documentation...
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating namespace index...
+Generating docs for namespace Ateam
+Generating docs for compound Ateam::ActionManager...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+intern/Assets/Ateam/Scripts/Battle/StageManager.cs:8: warning: Compound Ateam::StageManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingElement.cs:9: warning: Compound Ateam::RankingElement is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:17: warning: Compound Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/Common.cs:9: warning: Compound Ateam::Common is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleScene.cs:7: warning: Compound Ateam::BattleScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/CameraManager.cs:8: warning: Compound Ateam::CameraManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingUiMain.cs:11: warning: Compound Ateam::RankingUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/Item.cs:10: warning: Compound Ateam::Item is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/Observable.cs:8: warning: Compound Ateam::Observable is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/InvincibleAction.cs:7: warning: Compound Ateam::InvincibleAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/ApplicationManager.cs:7: warning: Compound Ateam::ApplicationManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:7: warning: Compound Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Config.cs:9: warning: Compound Ateam::Define::Config is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/EffectManager.cs:8: warning: Compound Ateam::EffectManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorView.cs:7: warning: Compound Ateam::ActorView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingScene.cs:8: warning: Compound Ateam::RankingScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Scenes.cs:9: warning: Compound Ateam::Define::Scenes is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/ActionManager.cs:9: warning: Compound Ateam::ActionManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs:9: warning: Compound Ateam::Actor is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/DamageObject.cs:7: warning: Compound Ateam::DamageObject is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:7: warning: Compound Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemView.cs:7: warning: Compound Ateam::ItemView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BulletAttackAction.cs:7: warning: Compound Ateam::BulletAttackAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:16: warning: Compound Ateam::State is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseMonoBehaviour.cs:7: warning: Compound Ateam::BaseMonoBehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Title/TitleScene.cs:7: warning: Compound Ateam::TitleScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:37: warning: Compound Ateam::StateMachine is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseActionModel.cs:8: warning: Compound Ateam::BaseActionModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:9: warning: Member ACTION_STATE (enumeration) of namespace Ateam is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleStateMachine.cs:8: warning: Member BATTLE_STATE (enumeration) of namespace Ateam is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/ActionManager.cs:23: warning: Member IGenerating docs for compound Ateam::Actor...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::ActorData...
+Generating docs for compound Ateam::ActorManager...
+Generating docs for compound Ateam::ActorModel...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::ActorView...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+nitialize(Character character) (function) of class Ateam::ActionManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/ActionManager.cs:58: warning: Member StartAction(Define.Battle.ACTION_TYPE actionType) (function) of class Ateam::ActionManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/ActionManager.cs:66: warning: Member SetEnableAll(bool enable) (function) of class Ateam::ActionManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/ActionManager.cs:15: warning: Member Initialize() (function) of class Ateam::ActionManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/ActionManager.cs:46: warning: Member Release() (function) of class Ateam::ActionManager is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs:68: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::Actor is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs:21: warning: Member Initialize() (function) of class Ateam::Actor is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs:29: warning: Member Release() (function) of class Ateam::Actor is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs:50: warning: Member Initialize(Define.ActorType actorType, ActorModel model, ActorView actorView) (function) of class Ateam::Actor is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs:13: warning: Member ActorModel (property) of class Ateam::Actor is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorManager.cs:9: warning: Member ActorData(Define.ActorType type, Actor actor) (function) of class Ateam::ActorData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorManager.cs:15: warning: Member Type (variable) of class Ateam::ActorData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorManager.cs:16: warning: Member Actor (variable) of class Ateam::ActorData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorManager.cs:32: warning: Member AddActor(Actor actor, Define.ActorType type) (function) of class Ateam::ActorManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorManager.cs:42: warning: Member RemoveActor(int actorId) (function) of class Ateam::ActorManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorManager.cs:50: warning: Member Release() (function) of class Ateam::ActorManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorManager.cs:59: warning: Member GetActor(int id) (function) of class Ateam::ActorManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorManager.cs:24: warning: Member Count (property) of class Ateam::ActorManager is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorModel.cs:8: warning: Member _actorId (variable) of class Ateam::ActorModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:8: warning: Member _observable (variable) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorModel.cs:9: warning: Member ActorId (property) of class Ateam::ActorModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:13: warning: Member Release() (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:25: warning: Member AddListerner(IObserver observer) (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:33: warning: Member RemoveListerner(IObserver observer) (function) of class Ateam::BaseModel is not documented.
+error: Problems running epstopdf. Check your TeX installatioGenerating docs for compound Ateam::ApplicationManager...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::BaseAction...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+n!
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorView.cs:29: warning: Member SetAvatar(string path) (function) of class Ateam::ActorView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorView.cs:53: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::ActorView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorView.cs:13: warning: Member Initialize() (function) of class Ateam::ActorView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorView.cs:21: warning: Member Release() (function) of class Ateam::ActorView is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/System/ApplicationManager.cs:81: warning: Member Initialize() (function) of class Ateam::ApplicationManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/ApplicationManager.cs:138: warning: Member Release() (function) of class Ateam::ApplicationManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/ApplicationManager.cs:9: warning: Member Instance (property) of class Ateam::ApplicationManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/ApplicationManager.cs:15: warning: Member GameSceneManager (property) of class Ateam::ApplicationManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/ApplicationManager.cs:21: warning: Member ActorManager (property) of class Ateam::ApplicationManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/ApplicationManager.cs:27: warning: Member Master (property) of class Ateam::ApplicationManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/ApplicationManager.cs:33: warning: Member CameraManager (property) of class Ateam::ApplicationManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/ApplicationManager.cs:39: warning: Member IsInitialize (property) of class Ateam::ApplicationManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/ApplicationManager.cs:45: warning: Member Battlesystem (property) of class Ateam::ApplicationManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/ApplicationManager.cs:52: warning: Member EffectManager (property) of class Ateam::ApplicationManager is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:55: warning: Member Initialize(int intervalFrameCount, Character character) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:94: warning: Member ActionStart() (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:158: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:44: warning: Member Initialize() (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:74: warning: Member Release() (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:112: warning: Member StartEnter(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:121: warning: Member UpdateEnter(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:129: warning: Member UpdateAction(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:142: warning: Member UpdateEnd(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-iGenerating docs for compound Ateam::BaseActionModel...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::BaseBattleAISystem...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::BaseCoroutineMonobehaviour...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::BaseModel...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+ntern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:150: warning: Member EndEnter(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:39: warning: Member _character (variable) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:34: warning: Member ActionModel (property) of class Ateam::BaseAction is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseActionModel.cs:10: warning: Member InterValFrameCount (property) of class Ateam::BaseActionModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseActionModel.cs:21: warning: Member CurrentInterValFrameCount (property) of class Ateam::BaseActionModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseActionModel.cs:32: warning: Member IsEnd (property) of class Ateam::BaseActionModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:13: warning: Member Release() (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:25: warning: Member AddListerner(IObserver observer) (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:33: warning: Member RemoveListerner(IObserver observer) (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:8: warning: Member _observable (variable) of class Ateam::BaseModel is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Ai/BaseBattleAISystem.cs:41: warning: Member Initialize() (function) of class Ateam::BaseBattleAISystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Ai/BaseBattleAISystem.cs:49: warning: Member Release() (function) of class Ateam::BaseBattleAISystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Ai/BaseBattleAISystem.cs:129: warning: The following parameters of Ateam.BaseBattleAISystem.Move(int actorId, Common.MOVE_TYPE type) are not documented:
+  parameter 'type'
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:14: warning: Member Initialize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:22: warning: Member Release() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:30: warning: Member InitializeCoroutine() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:35: warning: Member EndInitilaize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:9: warning: Member IsInitialize (property) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:13: warning: Member Release() (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:25: warning: Member AddListerner(IObserver observer) (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:33: warning: Member RemoveListerner(IObserver observer) (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:8: warning: Member _obGenerating docs for compound Ateam::BaseMonoBehaviour...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::BaseScene...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::BaseUi...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::BattleModel...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+servable (variable) of class Ateam::BaseModel is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseMonoBehaviour.cs:27: warning: Member Initialize() (function) of class Ateam::BaseMonoBehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseMonoBehaviour.cs:32: warning: Member Release() (function) of class Ateam::BaseMonoBehaviour is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:19: warning: Member Initialize() (function) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:28: warning: Member Release() (function) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:36: warning: Member ChangedSceneStart() (function) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:30: warning: Member InitializeCoroutine() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:35: warning: Member EndInitilaize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:9: warning: Member _mainCanvas (variable) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:12: warning: Member _mainCamera (variable) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:14: warning: Member _baseUi (variable) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:9: warning: Member IsInitialize (property) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseUi.cs:11: warning: Member Initialize() (function) of class Ateam::BaseUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseUi.cs:19: warning: Member Release() (function) of class Ateam::BaseUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:30: warning: Member InitializeCoroutine() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:35: warning: Member EndInitilaize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:9: warning: Member IsInitialize (property) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:59: warning: Member AddAISystem(Define.Battle.TEAM_TYPE type, BaseBattleAISystem aiSystem, string name) (function) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:70: warning: Member AddCharacter(Define.Battle.TEAM_TYPE type, Character character) (function) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:92: warning: Member SetTotalHp(Define.Battle.TEAM_TYPE type, float hp) (function) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:109: warning: Member SetMaxHp(Define.Battle.TEAM_TYPE type, float hp) (function) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:126: warning: Member ShowResultWindow(Hashtable table) (function) of class Ateam::BattleModeGenerating docs for compound Ateam::BattleScene...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+l is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:13: warning: Member Release() (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:25: warning: Member AddListerner(IObserver observer) (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:33: warning: Member RemoveListerner(IObserver observer) (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:9: warning: Member _frameTime (variable) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:32: warning: Member _teamCharacterList (variable) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:38: warning: Member _teamCharacterDataList (variable) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:44: warning: Member _AISystemList (variable) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:50: warning: Member _TeamNameList (variable) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:8: warning: Member _observable (variable) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:10: warning: Member FrameTime (property) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:21: warning: Member TotalHp (property) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:27: warning: Member MaxHp (property) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:33: warning: Member TeamCharacterList (property) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:39: warning: Member TeamCharacterDataList (property) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:45: warning: Member AISystemList (property) of class Ateam::BattleModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleModel.cs:51: warning: Member TeamNameList (property) of class Ateam::BattleModel is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleScene.cs:14: warning: Member Initialize() (function) of class Ateam::BattleScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleScene.cs:22: warning: Member Release() (function) of class Ateam::BattleScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleScene.cs:30: warning: Member InitializeCoroutine() (function) of class Ateam::BattleScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleScene.cs:66: warning: Member ChangedSceneStart() (function) of class Ateam::BattleScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:19: warning: Member Initialize() (function) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:28: warning: Member Release() (function) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:35: warning: Member EndInitilaize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:9: warning: Member _mainCanvas (variable) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:12: warning: Member _mainCamera (variable) of class Generating docs for compound Ateam::BattleStateMachine...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::BattleSystem...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:14: warning: Member _baseUi (variable) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:9: warning: Member IsInitialize (property) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleStateMachine.cs:38: warning: Member Initialize(BattleSystem system, BattleModel battleModel) (function) of class Ateam::BattleStateMachine is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:52: warning: Member Initialize(IEqualityComparer comparer) (function) of class StateMachine is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:63: warning: Member Add(T key, Action enter, Action action, Action exit) (function) of class StateMachine is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:72: warning: Member Update(float dt) (function) of class StateMachine is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:110: warning: Member SetNextState(T key) (function) of class StateMachine is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:118: warning: Member Release() (function) of class StateMachine is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:44: warning: Member CurrentStateKey (property) of class StateMachine is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:138: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:164: warning: Member CreateCharacter(Define.Battle.TEAM_TYPE type, int id) (function) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:175: warning: Member CreateDamageObject(Define.Battle.TEAM_TYPE type, Vector3 pos, Vector3 range, int attackFrame, float attackPower) (function) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:185: warning: Member AttackHitCallBack(Actor hitActor, float attackPower) (function) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:205: warning: Member CheckAllDeath() (function) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:221: warning: Member CreateResultScore(Define.Battle.TEAM_TYPE type) (function) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:245: warning: Member EVENT_Hp(Hashtable table) (function) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:259: warning: Member SaveScore(string name, int score) (function) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:297: warning: Member GetHighScoreRanking() (function) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:55: warning: Member Initialize() (function) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:63: warning: Member InitializeCoroutine() (function) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:108: warning: Member Release() (function) of class Ateam::BattleSysGenerating docs for compound Ateam::BattleUiMain...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::BootScene...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+tem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:14: warning: Member Initialize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:22: warning: Member Release() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:35: warning: Member EndInitilaize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:41: warning: Member _teamNameList (variable) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:12: warning: Member BattleModel (property) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:21: warning: Member StageManager (property) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:28: warning: Member ItemManager (property) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:35: warning: Member AISystemList (property) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleSystem.cs:42: warning: Member TeamNameList (property) of class Ateam::BattleSystem is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:9: warning: Member IsInitialize (property) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleUiMain.cs:75: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::BattleUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleUiMain.cs:35: warning: Member Initialize() (function) of class Ateam::BattleUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleUiMain.cs:43: warning: Member Release() (function) of class Ateam::BattleUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/BattleUiMain.cs:51: warning: Member InitializeCoroutine() (function) of class Ateam::BattleUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseUi.cs:11: warning: Member Initialize() (function) of class Ateam::BaseUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseUi.cs:19: warning: Member Release() (function) of class Ateam::BaseUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:35: warning: Member EndInitilaize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:9: warning: Member IsInitialize (property) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Boot/BootScene.cs:11: warning: Member Initialize() (function) of class Ateam::BootScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Boot/BootScene.cs:19: warning: Member Release() (function) of class Ateam::BootScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Boot/BootScene.cs:27: warning: Member InitializeCoroutine() (function) of class Ateam::BootScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Boot/BootScene.cs:37: warning: Member ChangedSceneStart() (function) of class Ateam::BootScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:19: warning: Member Initialize() (function) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.csGenerating docs for compound Ateam::Bullet...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::BulletAttackAction...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+:28: warning: Member Release() (function) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:35: warning: Member EndInitilaize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:9: warning: Member _mainCanvas (variable) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:12: warning: Member _mainCamera (variable) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:14: warning: Member _baseUi (variable) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:9: warning: Member IsInitialize (property) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/Bullet.cs:44: warning: Member Initilaize(int id, Define.Battle.TEAM_TYPE teamId, Vector3 pos, Vector3 moveVec, float damageBias) (function) of class Ateam::Bullet is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/Bullet.cs:103: warning: Member OnTriggerEnter(Collider collider) (function) of class Ateam::Bullet is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs:68: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::Actor is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/Bullet.cs:20: warning: Member Initialize() (function) of class Ateam::Bullet is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/Bullet.cs:30: warning: Member Release() (function) of class Ateam::Bullet is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs:50: warning: Member Initialize(Define.ActorType actorType, ActorModel model, ActorView actorView) (function) of class Ateam::Actor is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/Bullet.cs:9: warning: Member BulletModel (property) of class Ateam::Bullet is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs:13: warning: Member ActorModel (property) of class Ateam::Actor is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BulletAttackAction.cs:17: warning: Member Initialize() (function) of class Ateam::BulletAttackAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BulletAttackAction.cs:25: warning: Member StartEnter(StateData data) (function) of class Ateam::BulletAttackAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BulletAttackAction.cs:40: warning: Member Release() (function) of class Ateam::BulletAttackAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:121: warning: Member UpdateEnter(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:129: warning: Member UpdateAction(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:142: warning: Member UpdateEnd(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:150: warning: Member EndEnter(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:55: warning: Member Initialize(int intervalFrameCount, Character character) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:94: warning: Member ActionStart() (function) of class Ateam::BaseAction is not documented.
+E:Generating docs for compound Ateam::BulletModel...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:158: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:39: warning: Member _character (variable) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:34: warning: Member ActionModel (property) of class Ateam::BaseAction is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:9: warning: Member DAMAGE_TYPE (enumeration) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:14: warning: Member _speed (variable) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:25: warning: Member _rangeBlock (variable) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:36: warning: Member _attackPower (variable) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:47: warning: Member _lifeFrameCount (variable) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:58: warning: Member _currentLifeFrameCount (variable) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:69: warning: Member _damageType (variable) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:80: warning: Member _moveVec (variable) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:91: warning: Member _teamId (variable) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:102: warning: Member _attackPowerBias (variable) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorModel.cs:8: warning: Member _actorId (variable) of class Ateam::ActorModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:8: warning: Member _observable (variable) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:15: warning: Member Speed (property) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:26: warning: Member RangeBlock (property) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:37: warning: Member AttackPower (property) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:48: warning: Member LifeFrameCount (property) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:59: warning: Member CurrentLifeFrameCount (property) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:70: warning: Member DamageType (property) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:81: warning: Member MoveVec (property) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:92: warning: Member TeamId (property) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletModel.cs:103: warning: Member AttackPowerBias (property) of class Ateam::BulletModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorModel.cs:9: warning: Member ActorId (property) of class Ateam::Generating docs for compound Ateam::BulletView...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::CameraManager...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::Character...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::CharacterModel...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+ActorModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:13: warning: Member Release() (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:25: warning: Member AddListerner(IObserver observer) (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:33: warning: Member RemoveListerner(IObserver observer) (function) of class Ateam::BaseModel is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletView.cs:22: warning: Member Initialize(BulletData.BulletDataList data) (function) of class Ateam::BulletView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletView.cs:43: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::BulletView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorView.cs:29: warning: Member SetAvatar(string path) (function) of class Ateam::ActorView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletView.cs:14: warning: Member Initialize() (function) of class Ateam::BulletView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Bullet/BulletView.cs:35: warning: Member Release() (function) of class Ateam::BulletView is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/System/CameraManager.cs:18: warning: Member Initialize() (function) of class Ateam::CameraManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/CameraManager.cs:26: warning: Member Release() (function) of class Ateam::CameraManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/CameraManager.cs:9: warning: Member MainCamera (property) of class Ateam::CameraManager is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/Character.cs:46: warning: Member Initialize(int characterId, Define.Battle.TEAM_TYPE teamId, Vector3 pos) (function) of class Ateam::Character is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/Character.cs:121: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::Character is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/Character.cs:36: warning: Member Initialize() (function) of class Ateam::Character is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/Character.cs:85: warning: Member Release() (function) of class Ateam::Character is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs:50: warning: Member Initialize(Define.ActorType actorType, ActorModel model, ActorView actorView) (function) of class Ateam::Actor is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/Character.cs:16: warning: Member Characterview (property) of class Ateam::Character is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/Character.cs:22: warning: Member CharacterModel (property) of class Ateam::Character is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/Character.cs:28: warning: Member ActionManager (property) of class Ateam::Character is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs:13: warning: Member ActorModel (property) of class Ateam::Actor is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:166: warning: Member SetActorId(int id) (function) of class Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:174: warning: Member Release() (function) of class Ateam::CharacterModel is not documented.
+E:/develop/game-inGenerating docs for nested compound Ateam::CharacterModel::CharacterData...
+Generating docs for compound Ateam::CharacterView...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+tern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:25: warning: Member AddListerner(IObserver observer) (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:33: warning: Member RemoveListerner(IObserver observer) (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:26: warning: Member PublicCharacterData (property) of class Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:32: warning: Member CharacterId (property) of class Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:42: warning: Member TeamId (property) of class Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:53: warning: Member Speed (property) of class Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:64: warning: Member Hp (property) of class Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:76: warning: Member MaxHp (property) of class Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:87: warning: Member Invincible (property) of class Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:98: warning: Member TargetPos (property) of class Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:109: warning: Member IsMoveUpdate (property) of class Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:120: warning: Member MoveVec (property) of class Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:131: warning: Member Direction (property) of class Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:142: warning: Member AttackPowerBias (property) of class Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:153: warning: Member BlockPos (property) of class Ateam::CharacterModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorModel.cs:9: warning: Member ActorId (property) of class Ateam::ActorModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorModel.cs:8: warning: Member _actorId (variable) of class Ateam::ActorModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:8: warning: Member _observable (variable) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:10: warning: Member CharacterData(int id, Define.Battle.TEAM_TYPE type, float hp, Vector2 blockPos) (function) of class Ateam::CharacterModel::CharacterData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:18: warning: Member ActorId (variable) of class Ateam::CharacterModel::CharacterData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:19: warning: Member TeamType (variable) of class Ateam::CharacterModel::CharacterData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:20: warning: Member Hp (variable) of class Ateam::CharacterModel::CharacterData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterModel.cs:21: warning: Member BlockPos (variable) of class Ateam::CharacterModel::CharacterData is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/CGenerating docs for compound Ateam::DamageObject...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::EffectManager...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::GameSceneManager...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::InvincibleAction...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+haracter/CharacterView.cs:65: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::CharacterView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorView.cs:29: warning: Member SetAvatar(string path) (function) of class Ateam::ActorView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterView.cs:20: warning: Member Initialize() (function) of class Ateam::CharacterView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Character/CharacterView.cs:31: warning: Member Release() (function) of class Ateam::CharacterView is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/DamageObject.cs:17: warning: Member AttackHit(Actor hitActor, float attackPower) (function) of class Ateam::DamageObject is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/DamageObject.cs:35: warning: Member Initialize(Define.Battle.TEAM_TYPE teamType, Vector3 pos, Vector3 range, int attackFrame, float attackPower) (function) of class Ateam::DamageObject is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/DamageObject.cs:71: warning: Member OnTriggerEnter(Collider collider) (function) of class Ateam::DamageObject is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/DamageObject.cs:84: warning: Member OnTriggerStay(Collider collider) (function) of class Ateam::DamageObject is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/DamageObject.cs:97: warning: Member OnTriggerExit(Collider collider) (function) of class Ateam::DamageObject is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/DamageObject.cs:27: warning: Member Initialize() (function) of class Ateam::DamageObject is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/DamageObject.cs:50: warning: Member Release() (function) of class Ateam::DamageObject is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/DamageObject.cs:18: warning: Member AttackHitDelegate (property) of class Ateam::DamageObject is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/System/EffectManager.cs:25: warning: Member playeDelegate(GameObject obj) (function) of class Ateam::EffectManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/EffectManager.cs:30: warning: Member Play(string prefabPath, Vector3 pos, Vector3 rot, playeDelegate callback=null) (function) of class Ateam::EffectManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/EffectManager.cs:103: warning: Member PreLoad(string prefabPath) (function) of class Ateam::EffectManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/EffectManager.cs:119: warning: Member RemoveAll() (function) of class Ateam::EffectManager is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/System/GameSceneManager.cs:22: warning: Member Initialize() (function) of class Ateam::GameSceneManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/GameSceneManager.cs:31: warning: Member Release() (function) of class Ateam::GameSceneManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/GameSceneManager.cs:39: warning: Member ChangeScene(string sceneName) (function) of class Ateam::GameSceneManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/GameSceneManager.cs:13: warning: Member CurrentScene (property) of class Ateam::GameSceneManager is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/InvincibleAction.cs:19: warning: Member Initialize() (function) of class Ateam::InvincibleAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/InvincibleAction.cs:27: warning: Member StartEnter(StateData data) (funcGenerating docs for compound Ateam::IObserver...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::Item...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::ItemAttackBuffAction...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+tion) of class Ateam::InvincibleAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/InvincibleAction.cs:38: warning: Member UpdateAction(StateData data) (function) of class Ateam::InvincibleAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/InvincibleAction.cs:61: warning: Member EndEnter(StateData data) (function) of class Ateam::InvincibleAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/InvincibleAction.cs:70: warning: Member Release() (function) of class Ateam::InvincibleAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:121: warning: Member UpdateEnter(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:142: warning: Member UpdateEnd(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:55: warning: Member Initialize(int intervalFrameCount, Character character) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:94: warning: Member ActionStart() (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:158: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:39: warning: Member _character (variable) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:34: warning: Member ActionModel (property) of class Ateam::BaseAction is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/IObserver.cs:8: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::IObserver is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/Item.cs:22: warning: Member EndCallBack(Item item) (function) of class Ateam::Item is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/Item.cs:38: warning: Member Initialize(int id, EndCallBack callback) (function) of class Ateam::Item is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/Item.cs:99: warning: Member OnTriggerEnter(Collider collider) (function) of class Ateam::Item is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/Item.cs:122: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::Item is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/Item.cs:133: warning: Member EVENT_IsEnd(Hashtable table) (function) of class Ateam::Item is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/Item.cs:28: warning: Member Initialize() (function) of class Ateam::Item is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/Item.cs:85: warning: Member Release() (function) of class Ateam::Item is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs:50: warning: Member Initialize(Define.ActorType actorType, ActorModel model, ActorView actorView) (function) of class Ateam::Actor is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/Item.cs:12: warning: Member ItemModel (property) of class Ateam::Item is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/Actor.cs:13: warning: Member ActorModel (property) of class Ateam::Actor is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemAttackBuffAction.cs:16: warning: Member Initialize() (function) of class Ateam::ItemAttackBuffAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/BaGenerating docs for compound Ateam::ItemHpRecoveryAction...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+ttle/Item/ItemAttackBuffAction.cs:24: warning: Member Release() (function) of class Ateam::ItemAttackBuffAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemAttackBuffAction.cs:32: warning: Member StartEnter(StateData data) (function) of class Ateam::ItemAttackBuffAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemAttackBuffAction.cs:43: warning: Member EndEnter(StateData data) (function) of class Ateam::ItemAttackBuffAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:121: warning: Member UpdateEnter(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:129: warning: Member UpdateAction(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:142: warning: Member UpdateEnd(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:55: warning: Member Initialize(int intervalFrameCount, Character character) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:94: warning: Member ActionStart() (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:158: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:39: warning: Member _character (variable) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:34: warning: Member ActionModel (property) of class Ateam::BaseAction is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemHpRecoveryAction.cs:14: warning: Member Initialize() (function) of class Ateam::ItemHpRecoveryAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemHpRecoveryAction.cs:22: warning: Member Release() (function) of class Ateam::ItemHpRecoveryAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemHpRecoveryAction.cs:30: warning: Member StartEnter(StateData data) (function) of class Ateam::ItemHpRecoveryAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemHpRecoveryAction.cs:47: warning: Member EndEnter(StateData data) (function) of class Ateam::ItemHpRecoveryAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:121: warning: Member UpdateEnter(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:129: warning: Member UpdateAction(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:142: warning: Member UpdateEnd(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:55: warning: Member Initialize(int intervalFrameCount, Character character) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:94: warning: Member ActionStart() (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:158: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:39: warning: Member _character (variable) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:34: warning: Member AcGenerating docs for compound Ateam::ItemManager...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::ItemModel...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::ItemSpawnData...
+tionModel (property) of class Ateam::BaseAction is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:45: warning: Member ItemSpawnCallBack(ItemSpawnData ItemData) (function) of class Ateam::ItemManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:63: warning: Member Initialize(BattleModel _model) (function) of class Ateam::ItemManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:78: warning: Member InitializeObserver() (function) of class Ateam::ItemManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:94: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::ItemManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:105: warning: Member EVENT_Time(Hashtable table) (function) of class Ateam::ItemManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:156: warning: Member CreateStart() (function) of class Ateam::ItemManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:165: warning: Member GetItemList() (function) of class Ateam::ItemManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:55: warning: Member Initialize() (function) of class Ateam::ItemManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:86: warning: Member Release() (function) of class Ateam::ItemManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:32: warning: Member IsInitilaize (property) of class Ateam::ItemManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:46: warning: Member ItenSpawnCallBackDelegate (property) of class Ateam::ItemManager is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemModel.cs:8: warning: Member _effectiveFrameCount (variable) of class Ateam::ItemModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemModel.cs:19: warning: Member _itemData (variable) of class Ateam::ItemModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorModel.cs:8: warning: Member _actorId (variable) of class Ateam::ActorModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:8: warning: Member _observable (variable) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemModel.cs:9: warning: Member EffectiveFrameCount (property) of class Ateam::ItemModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemModel.cs:20: warning: Member ItemData (property) of class Ateam::ItemModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorModel.cs:9: warning: Member ActorId (property) of class Ateam::ActorModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:13: warning: Member Release() (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:25: warning: Member AddListerner(IObserver observer) (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseModel.cs:33: warning: Member RemoveListerner(IObserver observer) (function) of class Ateam::BaseModel is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:10: warning: Member ItemSpawnData(ItemData.ITEM_TYPE type, Vector2 blockPos) (function) of class Ateam::ItemSpawnData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:16: warning: Member ItemType (variable) of class Ateam::ItemSpawnData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ItemManager.cs:17: warning: MemberGenerating docs for compound Ateam::ItemSpeedBuffAction...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::ItemView...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::Observable...
+Generating docs for compound Ateam::ParticleBase...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::RankingElement...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+ BlockPos (variable) of class Ateam::ItemSpawnData is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemSpeedBuffAction.cs:16: warning: Member Initialize() (function) of class Ateam::ItemSpeedBuffAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemSpeedBuffAction.cs:24: warning: Member Release() (function) of class Ateam::ItemSpeedBuffAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemSpeedBuffAction.cs:32: warning: Member StartEnter(StateData data) (function) of class Ateam::ItemSpeedBuffAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemSpeedBuffAction.cs:43: warning: Member EndEnter(StateData data) (function) of class Ateam::ItemSpeedBuffAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:121: warning: Member UpdateEnter(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:129: warning: Member UpdateAction(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:142: warning: Member UpdateEnd(StateData data) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:55: warning: Member Initialize(int intervalFrameCount, Character character) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:94: warning: Member ActionStart() (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:158: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:39: warning: Member _character (variable) of class Ateam::BaseAction is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Action/BaseAction.cs:34: warning: Member ActionModel (property) of class Ateam::BaseAction is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemView.cs:27: warning: Member OnNotify(string eventName, Hashtable hashTable) (function) of class Ateam::ItemView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Actor/ActorView.cs:29: warning: Member SetAvatar(string path) (function) of class Ateam::ActorView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemView.cs:11: warning: Member Initialize() (function) of class Ateam::ItemView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/Item/ItemView.cs:19: warning: Member Release() (function) of class Ateam::ItemView is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/Observable.cs:14: warning: Member Release() (function) of class Ateam::Observable is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/Observable.cs:23: warning: Member AddObserver(IObserver observer) (function) of class Ateam::Observable is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/Observable.cs:31: warning: Member RemoveObserver(IObserver observer) (function) of class Ateam::Observable is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/Observable.cs:39: warning: Member RemoveAllObserver() (function) of class Ateam::Observable is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/Observable.cs:47: warning: Member PushEvent(string eventName, Hashtable hashTable) (function) of class Ateam::Observable is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingElementGenerating docs for compound Ateam::RankingScene...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::RankingUiMain...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+.cs:67: warning: Member PrepareAnimation() (function) of class Ateam::RankingElement is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingElement.cs:73: warning: Member StartAnimation() (function) of class Ateam::RankingElement is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingElement.cs:78: warning: Member RunAnimation() (function) of class Ateam::RankingElement is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingElement.cs:96: warning: Member SetScoreData(Hashtable data) (function) of class Ateam::RankingElement is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingElement.cs:36: warning: Member Initialize() (function) of class Ateam::RankingElement is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingElement.cs:44: warning: Member Release() (function) of class Ateam::RankingElement is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingElement.cs:52: warning: Member InitializeCoroutine() (function) of class Ateam::RankingElement is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseUi.cs:11: warning: Member Initialize() (function) of class Ateam::BaseUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseUi.cs:19: warning: Member Release() (function) of class Ateam::BaseUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:35: warning: Member EndInitilaize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingElement.cs:18: warning: Member rectTransform (property) of class Ateam::RankingElement is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:9: warning: Member IsInitialize (property) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingScene.cs:12: warning: Member Initialize() (function) of class Ateam::RankingScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingScene.cs:20: warning: Member Release() (function) of class Ateam::RankingScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingScene.cs:28: warning: Member InitializeCoroutine() (function) of class Ateam::RankingScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingScene.cs:55: warning: Member ChangedSceneStart() (function) of class Ateam::RankingScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:19: warning: Member Initialize() (function) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:28: warning: Member Release() (function) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:35: warning: Member EndInitilaize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:9: warning: Member _mainCanvas (variable) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:12: warning: Member _mainCamera (variable) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:14: warning: Member _baseUi (variable) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:9: warning: Member IsInitialize (property) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingUiMain.cs:113: warning: Member GetHighScoreRanking() (function) of class Ateam::RankingUiMain is not doGenerating docs for compound Ateam::ResultUi...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for compound Ateam::StageManager...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+cumented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingUiMain.cs:31: warning: Member Initialize() (function) of class Ateam::RankingUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingUiMain.cs:39: warning: Member Release() (function) of class Ateam::RankingUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingUiMain.cs:47: warning: Member InitializeCoroutine() (function) of class Ateam::RankingUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingUiMain.cs:92: warning: Member RankingAnimation() (function) of class Ateam::RankingUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseUi.cs:11: warning: Member Initialize() (function) of class Ateam::BaseUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseUi.cs:19: warning: Member Release() (function) of class Ateam::BaseUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:35: warning: Member EndInitilaize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Ranking/RankingUiMain.cs:16: warning: Member _verticalLayoutGroup (variable) of class Ateam::RankingUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:9: warning: Member IsInitialize (property) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ResultUi.cs:49: warning: Member SetResultData(Hashtable table) (function) of class Ateam::ResultUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ResultUi.cs:41: warning: Member InitializeCoroutine() (function) of class Ateam::ResultUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseUi.cs:11: warning: Member Initialize() (function) of class Ateam::BaseUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseUi.cs:19: warning: Member Release() (function) of class Ateam::BaseUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:35: warning: Member EndInitilaize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/ResultUi.cs:26: warning: Member rectTransform (property) of class Ateam::ResultUi is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:9: warning: Member IsInitialize (property) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/StageManager.cs:106: warning: Member CreateStage(Action callback) (function) of class Ateam::StageManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/StageManager.cs:137: warning: Member GetBlockPosition(int x, int y) (function) of class Ateam::StageManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/StageManager.cs:145: warning: Member GetStartPosition(Define.Battle.TEAM_TYPE type) (function) of class Ateam::StageManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/StageManager.cs:162: warning: Member getPositionBlock(Vector3 pos) (function) of class Ateam::StageManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/StageManager.cs:177: warning: Member GetMoveVec(Common.MOVE_TYPE type) (function) of class Ateam::StageManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/StageManager.cs:206: warning: Member GetBlockType(Vector2 data) (function) of class Ateam::StageManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/StageManager.cs:47: warning: Member Initialize() (function) of class Ateam::StageManager is not documented.
+E:/develop/game-inteGenerating docs for compound Ateam::State...
+Generating docs for compound Ateam::StateData...
+Generating docs for compound Ateam::StateMachine...
+Generating docs for compound Ateam::TitleScene...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+rn/Assets/Ateam/Scripts/Battle/StageManager.cs:61: warning: Member Release() (function) of class Ateam::StageManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/StageManager.cs:11: warning: Member VerticalBlock (property) of class Ateam::StageManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/StageManager.cs:19: warning: Member HorizontalBlock (property) of class Ateam::StageManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/StageManager.cs:31: warning: Member StageBlockData (property) of class Ateam::StageManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Battle/StageManager.cs:39: warning: Member IsInitilaize (property) of class Ateam::StageManager is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:24: warning: Member Create(Action enter, Action action, Action exit) (function) of class Ateam::State is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:17: warning: Member Enter (variable) of class Ateam::State is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:18: warning: Member Action (variable) of class Ateam::State is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:19: warning: Member Exit (variable) of class Ateam::State is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:10: warning: Member dt (property) of class Ateam::StateData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:11: warning: Member totalTime (property) of class Ateam::StateData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:12: warning: Member frameCount (property) of class Ateam::StateData is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:52: warning: Member Initialize(IEqualityComparer comparer) (function) of class Ateam::StateMachine is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:63: warning: Member Add(T key, Action enter, Action action, Action exit) (function) of class Ateam::StateMachine is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:72: warning: Member Update(float dt) (function) of class Ateam::StateMachine is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:110: warning: Member SetNextState(T key) (function) of class Ateam::StateMachine is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:118: warning: Member Release() (function) of class Ateam::StateMachine is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/StateMachine.cs:44: warning: Member CurrentStateKey (property) of class Ateam::StateMachine is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Title/TitleScene.cs:14: warning: Member Initialize() (function) of class Ateam::TitleScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Title/TitleScene.cs:22: warning: Member Release() (function) of class Ateam::TitleScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Title/TitleScene.cs:30: warning: Member InitializeCoroutine() (function) of class Ateam::TitleScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Title/TitleScene.cs:58: warning: Member ChangedSceneStart() (function) of class Ateam::TitleScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:35: warning: Member EndInitilaize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:9: warning: Member _mainCanvas (variable) of class Ateam::BaseScene is not Generating docs for compound Ateam::TitleUiMain...
+'epstopdf' ??A???R?}???h?????O???R?}???h?A
+??????\??v???O?????????o?b?` ?t?@?C???????F???????????????B
+Generating docs for namespace Ateam::Define
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+writing tag file...
+lookup cache used 310/65536 hits=1199 misses=563
+finished...
+documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:12: warning: Member _mainCamera (variable) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseScene.cs:14: warning: Member _baseUi (variable) of class Ateam::BaseScene is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:9: warning: Member IsInitialize (property) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+error: Problems running epstopdf. Check your TeX installation!
+E:/develop/game-intern/Assets/Ateam/Scripts/Title/TitleUiMain.cs:37: warning: Member OnClickedStartButton() (function) of class Ateam::TitleUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Title/TitleUiMain.cs:11: warning: Member Initialize() (function) of class Ateam::TitleUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Title/TitleUiMain.cs:19: warning: Member Release() (function) of class Ateam::TitleUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/Title/TitleUiMain.cs:27: warning: Member InitializeCoroutine() (function) of class Ateam::TitleUiMain is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:35: warning: Member EndInitilaize() (function) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Common/BaseCoroutineMonobehaviour.cs:9: warning: Member IsInitialize (property) of class Ateam::BaseCoroutineMonobehaviour is not documented.
+E:/develop/game-intern/Assets/Ateam/Scripts/System/Define/Actor.cs:9: warning: Member ActorType (enumeration) of namespace Ateam::Define is not documented.
+*** Doxygen has finished

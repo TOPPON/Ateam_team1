@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a08446e7a1d3b0348b6e16739bac44eb, type: 3}
+  m_Name: ActionData
+  m_EditorClassIdentifier: 
+  _list:
+  - Name: "\u9577\u8DDD\u96E2\u653B\u6483"
+    ActionType: 0
+    ActionIntervalFrameCount: 3
+    ActionPrefabPath: Prefabs/Battle/Actions/LongAttack
+  - Name: "\u4E2D\u8DDD\u96E2\u653B\u6483"
+    ActionType: 1
+    ActionIntervalFrameCount: 30
+    ActionPrefabPath: Prefabs/Battle/Actions/MiddleAttack
+  - Name: "\u8FD1\u8DDD\u96E2\u653B\u6483"
+    ActionType: 2
+    ActionIntervalFrameCount: 180
+    ActionPrefabPath: Prefabs/Battle/Actions/ShortAttack
+  - Name: "\u7121\u6575"
+    ActionType: 3
+    ActionIntervalFrameCount: 900
+    ActionPrefabPath: Prefabs/Battle/Actions/Invincible

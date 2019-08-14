@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f9e15d34d7eca441bb4aecb2274ce13, type: 3}
+  m_Name: EffectData
+  m_EditorClassIdentifier: 
+  _list:
+  - Name: "\u30D2\u30C3\u30C8\u30A8\u30D5\u30A7\u30AF\u30C8"
+    Type: 0
+    PrefabPath: Prefabs/Effect/HitEffect
+  - Name: "\u7206\u767A"
+    Type: 1
+    PrefabPath: Prefabs/Effect/ExplosionEffect
+  - Name: "\u653B\u6483\u529B\u30A2\u30C3\u30D7\u306E\u30D0\u30D5\u30A8\u30D5\u30A7\u30AF\u30C8"
+    Type: 2
+    PrefabPath: Prefabs/Effect/AttackPowerUpBuffEffect
+  - Name: "\u30B9\u30D4\u30FC\u30C9\u30A2\u30C3\u30D7\u306E\u30D0\u30D5\u30A8\u30D5\u30A7\u30AF\u30C8"
+    Type: 3
+    PrefabPath: Prefabs/Effect/SpeedUpBuffEffect
+  - Name: "\u56DE\u5FA9"
+    Type: 4
+    PrefabPath: Prefabs/Effect/HPRecoverBuffEffect
+  - Name: "\u8FD1\u8DDD\u96E2\u653B\u6483"
+    Type: 5
+    PrefabPath: Prefabs/Effect/ShortAttackEffect

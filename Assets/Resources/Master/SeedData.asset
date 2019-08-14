@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 602cfbdcdb64fa544abda9635f2ad6f3, type: 3}
+  m_Name: SeedData
+  m_EditorClassIdentifier: 
+  _list:
+  - Seed: 1257150125
+  - Seed: 2115946352
+  - Seed: 521744874
+  - Seed: 191092703
+  - Seed: 889615328
+  - Seed: 1026289552
+  - Seed: 1802182591
+  - Seed: 2124673060
+  - Seed: 2017199461
+  - Seed: 436806301
+  - Seed: 690768012
+  - Seed: 1223657315
+  - Seed: 1356901439
+  - Seed: 53373308
+  - Seed: 1208822205
+  - Seed: 2087543626
+  - Seed: 691642790
+  - Seed: 1496074356
+  - Seed: 2018361901
+  - Seed: 1873645895
+  - Seed: 192752004
+  - Seed: 808038263
+  - Seed: 644046837
+  - Seed: 633855455
+  - Seed: 1192554987
+  - Seed: 976993385
+  - Seed: 110874668
+  - Seed: 489280525
+  - Seed: 2102588907
+  - Seed: 443406045

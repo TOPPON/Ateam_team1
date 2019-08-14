@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Ateam/Scenes/BootScene.unity
+    guid: e559b191d3e538144b3fa29a9466a449
+  - enabled: 1
+    path: Assets/Ateam/Scenes/TitleScene.unity
+    guid: b49531e98ff4dbc409d336684dbd3c97
+  - enabled: 1
+    path: Assets/Ateam/Scenes/BattleScene.unity
+    guid: 599127baa3aaaa64ab8e7617f0a659fb
+  - enabled: 1
+    path: Assets/Ateam/Scenes/DangerScene.unity
+    guid: ea835652cee8b124a8acc6d4ce06b411
+  - enabled: 1
+    path: Assets/Ateam/Scenes/RankingScene.unity
+    guid: 278c3b3f5ad883e41b4d2df6fec99458

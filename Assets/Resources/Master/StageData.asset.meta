@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 723053dbd12c2b443b51bc143c101742
+labels:
+- Data
+- ScriptableObject
+- StageData
+timeCreated: 1500181024
+licenseType: Free
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
