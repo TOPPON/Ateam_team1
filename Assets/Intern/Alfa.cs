@@ -19,11 +19,7 @@ namespace Ateam
                 this.id = id;
             }
         }
-        struct ITEMInfo
-        {
-            public ITEM_TYPE itemtype;
-            Vector2 Pos;
-        }
+        List <ItemSpawnData>  FieldItem=new List<ItemSpawnData>();
         enum ITEM_TYPE
         {
             ATKUP,
@@ -50,6 +46,23 @@ namespace Ateam
         //---------------------------------------------------
         override public void UpdateAI()
         {
+            //アイテムのステージ情報更新
+            ItemDataUpdate();
+
+            //戦略データの更新
+            if (DataUpdate() == false)
+            {
+                return;
+            }
+
+            //移動更新
+            MoveUpdate();
+
+            //攻撃更新
+            ActionUpdate();
+        }
+        bool DataUpdate()
+        { 
             List<CharacterModel.Data> player = GetTeamCharacterDataList(TEAM_TYPE.PLAYER);
             for (int i=0;i<OldHPList.Count;i++)
             { 
@@ -78,14 +91,44 @@ namespace Ateam
             {
                 datas[i] = GetCharacterData(i);
             }
+            return true;
         }
-
+        //---------------------------------------------------
+        // ItemDataUpdate
+        //---------------------------------------------------
+        void ItemDataUpdate()
+        {
+            foreach(ItemSpawnData tempItem in FieldItem)
+            {
+                for (int i = 0; i < 6; i++)
+                {
+                    if (tempItem.BlockPos ==datas[i].BlockPos&&datas[i].Hp>0)
+                    {
+                        FieldItem.Remove(tempItem);
+                    }
+                }
+            }
+            //FieldItem.Clear();
+            
+        }
+        //---------------------------------------------------
+        // MoveUpdate
+        //---------------------------------------------------
+        void MoveUpdate()
+        {
+        }  //---------------------------------------------------
+        // ActionUpdate
+        //---------------------------------------------------
+        void ActionUpdate()
+        {
+        }
         //---------------------------------------------------
         // ItemSpawnCallback
         //---------------------------------------------------
         override public void ItemSpawnCallback(ItemSpawnData itemData)
         {
-
+            FieldItem.Add(itemData);
+            //print(itemData.GetType().ToString()+itemData.BlockPos.ToString());
         }
 
         void DamageCallBack(int actorid)
@@ -96,9 +139,9 @@ namespace Ateam
         {
         }
 
-        List<ITEMInfo> GetItemNearDistance(Vector2 Playerpos ,ITEM_TYPE targetItem)
+        List<ItemSpawnData> GetItemNearDistance(Vector2 Playerpos ,ITEM_TYPE targetItem)
         {
-            List<ITEMInfo> ITEMS = new List<ITEMInfo>(); 
+            List<ItemSpawnData> ITEMS = new List<ItemSpawnData>(); 
             return ITEMS;
         }
         /// <summary>
