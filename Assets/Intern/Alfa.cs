@@ -8,7 +8,24 @@ namespace Ateam
     public class Alfa : BaseBattleAISystem
     {
         public CharacterModel.Data[] datas = new CharacterModel.Data[6];
-
+        List <HpData>OldHPList = new List<HpData>();
+        struct HpData
+        {
+            public float Hp;
+            public int id;
+            public HpData(int Hp,int id)
+            {
+                this.Hp = Hp;
+                this.id = id;
+            }
+        }
+        List <ItemSpawnData>  FieldItem=new List<ItemSpawnData>();
+        enum ITEM_TYPE
+        {
+            ATKUP,
+            SPEEDUP,
+            RECOVER
+        }
         //---------------------------------------------------
         // InitializeAI
         //---------------------------------------------------
@@ -28,24 +45,124 @@ namespace Ateam
             ExMove(GetTeamCharacterDataList(TEAM_TYPE.PLAYER)[0].ActorId, new Vector2Int(7, 7));
             ExMove(GetTeamCharacterDataList(TEAM_TYPE.PLAYER)[1].ActorId, new Vector2Int(7, 7));
             ExMove(GetTeamCharacterDataList(TEAM_TYPE.PLAYER)[2].ActorId, new Vector2Int(7, 7));
-        }
 
+            //アイテムのステージ情報更新
+            ItemDataUpdate();
+
+            //戦略データの更新
+            if (DataUpdate() == false)
+            {
+                return;
+            }
+
+            //移動更新
+            MoveUpdate();
+
+            //攻撃更新
+            ActionUpdate();
+        }
+        
+        bool DataUpdate()
+        { 
+            List<CharacterModel.Data> player = GetTeamCharacterDataList(TEAM_TYPE.PLAYER);
+            for (int i=0;i<OldHPList.Count;i++)
+            { 
+                HpData thisHP = OldHPList[i];
+                //ダメージ検出
+                foreach (CharacterModel.Data character in player)
+                {
+                    if (character.ActorId == thisHP.id)
+                    {
+                        if (character.Hp != thisHP.Hp)//ダメージを食らっている
+                        {
+                            if (character.Hp <= 0)
+                            {
+                                DieCallBack(character.ActorId);
+                            }
+                            DamageCallBack(character.ActorId);
+                        }
+                        thisHP.Hp = character.Hp;
+                        OldHPList[i]=thisHP;
+                        break;
+                    }
+                }
+            }
+            //プレイヤーの情報の更新
+            for (int i = 0; i < 6; i++)
+            {
+                datas[i] = GetCharacterData(i);
+            }
+            return true;
+        }
+        //---------------------------------------------------
+        // ItemDataUpdate
+        //---------------------------------------------------
+        void ItemDataUpdate()
+        {
+            foreach(ItemSpawnData tempItem in FieldItem)
+            {
+                for (int i = 0; i < 6; i++)
+                {
+                    if (tempItem.BlockPos ==datas[i].BlockPos&&datas[i].Hp>0)
+                    {
+                        FieldItem.Remove(tempItem);
+                    }
+                }
+            }
+            //FieldItem.Clear();
+            
+        }
+        //---------------------------------------------------
+        // MoveUpdate
+        //---------------------------------------------------
+        void MoveUpdate()
+        {
+        }  //---------------------------------------------------
+        // ActionUpdate
+        //---------------------------------------------------
+        void ActionUpdate()
+        {
+        }
         //---------------------------------------------------
         // ItemSpawnCallback
         //---------------------------------------------------
         override public void ItemSpawnCallback(ItemSpawnData itemData)
         {
+            FieldItem.Add(itemData);
+            //print(itemData.GetType().ToString()+itemData.BlockPos.ToString());
         }
 
+        void DamageCallBack(int actorid)
+        {
+
+        }
+        void DieCallBack(int actorid)
+        {
+        }
+
+        List<ItemSpawnData> GetItemNearDistance(Vector2 Playerpos ,ITEM_TYPE targetItem)
+        {
+            List<ItemSpawnData> ITEMS = new List<ItemSpawnData>(); 
+            return ITEMS;
+        }
         /// <summary>
         /// 味方を取得
         /// </summary>
         /// <returns></returns>
         public IEnumerator<CharacterModel.Data> GetPlayers()
         {
-            yield return datas[0];
-            yield return datas[1];
-            yield return datas[2];
+            if (GetCharacterData(0).TeamType.Equals(TEAM_TYPE.PLAYER))
+            {
+                yield return datas[0];
+                yield return datas[1];
+                yield return datas[2];
+            }
+            else
+            {
+                yield return datas[3];
+                yield return datas[4];
+                yield return datas[5];
+            }
         }
 
         /// <summary>
@@ -54,9 +171,41 @@ namespace Ateam
         /// <returns></returns>
         public IEnumerator<CharacterModel.Data> GetEnemies()
         {
-            yield return datas[3];
-            yield return datas[4];
-            yield return datas[5];
+            if (GetCharacterData(0).TeamType.Equals(TEAM_TYPE.PLAYER))
+            {
+                yield return datas[3];
+                yield return datas[4];
+                yield return datas[5];
+            }
+            else
+            {
+                yield return datas[0];
+                yield return datas[1];
+                yield return datas[2];
+            }
+        }
+        //メイン機を取得
+        public CharacterModel.Data GetMainMachine(TEAM_TYPE teamType)
+        {
+            if (teamType.Equals((GetCharacterData(0).TeamType)))
+            {
+                return datas[0];
+            }
+            else return datas[3];
+        }
+        //サブ機を取得
+        public IEnumerator<CharacterModel.Data> GetSubMachines(TEAM_TYPE teamType)
+        {
+            if (teamType.Equals((GetCharacterData(0).TeamType)))
+            {
+                yield return datas[1];
+                yield return datas[2];
+            }
+            else
+            {
+                yield return datas[4];
+                yield return datas[5];
+            }
         }
 
         public bool ExMove(int actorId, Vector2Int goal)
