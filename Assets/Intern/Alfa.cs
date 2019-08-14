@@ -29,6 +29,7 @@ namespace Ateam
         //---------------------------------------------------
         override public void UpdateAI()
         {
+            ExMove(0, new Vector2Int(5, 5));
         }
 
         //---------------------------------------------------
@@ -60,6 +61,16 @@ namespace Ateam
             yield return datas[5];
         }
 
+        public bool ExMove(int actorId, Vector2Int goal)
+        {
+            var pos = datas[0].BlockPos;
+            var path = GetPath(new Vector2Int((int) pos.x, (int) pos.y), goal);
+            if (path.First.Next == null)
+                return false;
+            var dir = path.First.Value.pos - path.First.Next.Value.pos;
+            return Move(actorId, GetDir(dir));
+        }
+
         public LinkedList<PathNode> GetPath(Vector2Int start, Vector2Int goal)
         {
             var startNode = new PathNode(start);
@@ -72,15 +83,81 @@ namespace Ateam
 
             var openList = new PriorityList();
             var closedList = new LinkedList<PathNode>();
+            var i = 0;
 
             openList.Add(startNode);
 
             while (openList.Count != 0)
             {
                 var curNode = openList[0];
+
+                if (curNode.Equals(goalNode))
+                {
+                    Debug.Log("Find");
+                    return ConstructPath(curNode);
+                }
+
+                if (i >= 500)
+                    return ConstructPath(curNode);
+
+                closedList.AddLast(curNode);
+                LinkedList<PathNode> neighbors = curNode.getNeighbors();
+                foreach (PathNode neighborNode in neighbors)
+                {
+                    bool isOpen = openList.Contains(neighborNode);
+                    bool isClosed = closedList.Contains(neighborNode);
+                    bool pass = this.CheckPass(neighborNode);
+
+                    if (!isOpen && !isClosed && pass)
+                    {
+                        neighborNode.costFromStart = curNode.costFromStart + neighborNode.cost;
+                        neighborNode.heuristicCostToGoal = neighborNode
+                            .GetHeuristicCost(goalNode);
+                        neighborNode.parent = curNode;
+                        openList.Add(neighborNode);
+                    }
+                }
+
+                i++;
             }
 
+            openList.Clear();
+            closedList.Clear();
+
             return null;
+        }
+
+        private LinkedList<PathNode> ConstructPath(PathNode node)
+        {
+            LinkedList<PathNode> path = new LinkedList<PathNode>();
+
+            while (node.parent != null)
+            {
+                path.AddFirst(node);
+                node = node.parent;
+            }
+
+            path.AddFirst(node);
+            return path;
+        }
+
+        public Common.MOVE_TYPE GetDir(Vector2Int pos)
+        {
+            if (pos == Vector2Int.up)
+                return Common.MOVE_TYPE.UP;
+            else if (pos == Vector2Int.down)
+                return Common.MOVE_TYPE.DOWN;
+            else if (pos == Vector2Int.left)
+                return Common.MOVE_TYPE.LEFT;
+            else if (pos == Vector2Int.right)
+                return Common.MOVE_TYPE.RIGHT;
+
+            return Common.MOVE_TYPE.NONE_MAX;
+        }
+
+        public bool CheckPass(PathNode node)
+        {
+            return true;
         }
     }
 
@@ -155,7 +232,7 @@ namespace Ateam
                 }
             }
 
-            Add(node);
+            base.Add(node);
         }
     }
 }
