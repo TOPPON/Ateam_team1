@@ -97,7 +97,7 @@ namespace Ateam
                     return ConstructPath(curNode);
                 }
 
-                if (i >= 500)
+                if (i >= 100)
                     return ConstructPath(curNode);
 
                 closedList.AddLast(curNode);
