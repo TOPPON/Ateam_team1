@@ -25,9 +25,9 @@ namespace Ateam
         //---------------------------------------------------
         override public void UpdateAI()
         {
-            ExMove(GetTeamCharacterDataList(TEAM_TYPE.PLAYER)[0].ActorId, new Vector2Int(15, 15));
-            ExMove(GetTeamCharacterDataList(TEAM_TYPE.PLAYER)[1].ActorId, new Vector2Int(15, 15));
-            ExMove(GetTeamCharacterDataList(TEAM_TYPE.PLAYER)[2].ActorId, new Vector2Int(15, 15));
+            ExMove(GetTeamCharacterDataList(TEAM_TYPE.PLAYER)[0].ActorId, new Vector2Int(7, 7));
+            ExMove(GetTeamCharacterDataList(TEAM_TYPE.PLAYER)[1].ActorId, new Vector2Int(7, 7));
+            ExMove(GetTeamCharacterDataList(TEAM_TYPE.PLAYER)[2].ActorId, new Vector2Int(7, 7));
         }
 
         //---------------------------------------------------
@@ -65,7 +65,10 @@ namespace Ateam
             var path = GetPath(new Vector2Int((int) pos.x, (int) pos.y), goal);
 
             if (path.First.Next == null)
+            {
                 return false;
+            }
+
             var dir = path.First.Value.pos - path.First.Next.Value.pos;
             print(actorId.ToString() + ":" + GetDir(dir).ToString());
             return Move(actorId, GetDir(dir));
@@ -90,6 +93,7 @@ namespace Ateam
             while (openList.Count != 0)
             {
                 var curNode = openList[0];
+                openList.RemoveAt(0);
 
                 if (curNode.Equals(goalNode))
                 {
@@ -148,9 +152,9 @@ namespace Ateam
             else if (pos == Vector2Int.down)
                 return Common.MOVE_TYPE.DOWN;
             else if (pos == Vector2Int.left)
-                return Common.MOVE_TYPE.LEFT;
-            else if (pos == Vector2Int.right)
                 return Common.MOVE_TYPE.RIGHT;
+            else if (pos == Vector2Int.right)
+                return Common.MOVE_TYPE.LEFT;
 
             return Common.MOVE_TYPE.NONE_MAX;
         }
